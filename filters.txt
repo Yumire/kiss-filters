@@ -5,3 +5,4 @@
 ! Description: A list of filters for use with the various Kiss sites.
 
 ||kissanime.ru^*.asp$subdocument,first-party
+kissanime.ru##div.divCloseBut
