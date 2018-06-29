@@ -1,0 +1,7 @@
+
+! Title: Kiss Filters
+! Expires: 2 days
+! Homepage: https://github.com/Yumire/kiss-filters
+! Description: A list of filters for use with the various Kiss sites.
+
+||kissanime.ru^*.asp$subdocument,first-party
