@@ -8,4 +8,4 @@
 kissanime.ru##div.divCloseBut
 kissanime.ru##.videoAdClose
 kissanime.ru##script:inject(abort-current-inline-script.js, InitCloseButton)
-kissanime.ru/Special/TemporaryBlockZ
+||kissanime.ru/*/TemporaryBlockZ^$xmlhttprequest
