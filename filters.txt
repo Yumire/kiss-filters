@@ -4,7 +4,7 @@
 ! Homepage: https://github.com/Yumire/kiss-filters
 ! Description: A list of filters for use with the various Kiss sites.
 
-||kissanime.ru^*.asp$subdocument,first-party
+||kissanime.ru^*.aspx$subdocument,first-party
 kissanime.ru##div.divCloseBut
 kissanime.ru##.videoAdClose
 kissanime.ru##script:inject(abort-current-inline-script.js, InitCloseButton)
