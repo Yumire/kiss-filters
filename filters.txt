@@ -11,3 +11,6 @@ kissanime.ru##script:inject(abort-current-inline-script.js, InitCloseButton)
 
 # https://github.com/uBlockOrigin/uAssets/issues/2719#issuecomment-401545673
 ||kissanime.ru/*/TemporaryBlockZ^$xmlhttprequest
+
+# rapidvideo
+||c1.popads.net/pop.js$script,redirect=noopjs,domain=rapidvideo.com
