@@ -7,10 +7,8 @@
 ||kissanime.ru^*.aspx$subdocument,first-party
 kissanime.ru##div.divCloseBut
 kissanime.ru##.videoAdClose
+
+# One of these should work ¯\_(ツ)_/¯
 kissanime.ru##script:inject(abort-current-inline-script.js, InitCloseButton)
-
-# https://github.com/uBlockOrigin/uAssets/issues/2719#issuecomment-401545673
-||kissanime.ru/*/TemporaryBlockZ^$xmlhttprequest
-
-# rapidvideo
-||c1.popads.net/pop.js$script,redirect=noopjs,domain=rapidvideo.com
+kissanime.ru##script:inject(abort-current-inline-script.js, isClickHide)
+kissanime.ru##script:inject(abort-current-inline-script.js, AddCloseButton)
