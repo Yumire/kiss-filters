@@ -4,6 +4,10 @@
 ! Homepage: https://github.com/Yumire/kiss-filters
 ! Description: A list of filters for use with the various Kiss sites.
 
+# ==========
+# KissAnime
+# ==========
+
 ||kissanime.ru^*.aspx$subdocument,first-party
 kissanime.ru##div.divCloseBut
 kissanime.ru##.videoAdClose
@@ -12,3 +16,9 @@ kissanime.ru##.videoAdClose
 kissanime.ru##script:inject(abort-current-inline-script.js, InitCloseButton)
 kissanime.ru##script:inject(abort-current-inline-script.js, isClickHide)
 kissanime.ru##script:inject(abort-current-inline-script.js, AddCloseButton)
+
+# ==========
+# KissManga
+# ==========
+
+@@||googleusercontent.com^$image,domain=kissmanga.com
