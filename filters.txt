@@ -21,5 +21,7 @@ kissanime.ru##script:inject(abort-current-inline-script.js, AddCloseButton)
 # KissManga
 # ==========
 
+||kissmanga.com^*.aspx$subdocument,first-party
+
 @@||googleusercontent.com^$image,domain=kissmanga.com
 @@||*.blogspot.com^$image,domain=kissmanga.com
