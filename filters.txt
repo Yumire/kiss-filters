@@ -23,5 +23,10 @@ kissanime.ru##script:inject(abort-current-inline-script.js, AddCloseButton)
 
 ||kissmanga.com^*.aspx$subdocument,first-party
 
+# Doing this here too ¯\_(ツ)_/¯
+kissmanga.com##script:inject(abort-current-inline-script.js, InitCloseButton)
+kissmanga.com##script:inject(abort-current-inline-script.js, isClickHide)
+kissmanga.com##script:inject(abort-current-inline-script.js, AddCloseButton)
+
 @@||googleusercontent.com^$image,domain=kissmanga.com
 @@||*.blogspot.com^$image,domain=kissmanga.com
