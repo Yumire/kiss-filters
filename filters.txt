@@ -28,5 +28,8 @@ kissmanga.com##script:inject(abort-current-inline-script.js, InitCloseButton)
 kissmanga.com##script:inject(abort-current-inline-script.js, isClickHide)
 kissmanga.com##script:inject(abort-current-inline-script.js, AddCloseButton)
 
+kissmanga.com###divImage:style(display: block !important)
+
 @@||googleusercontent.com^$image,domain=kissmanga.com
 @@||*.blogspot.com^$image,domain=kissmanga.com
+@@||file-comic-99.anyacg.co^$image,domain=kissmanga.com
