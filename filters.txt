@@ -14,9 +14,9 @@ kissanime.ru##.videoAdClose
 kissanime.ru###adsIfrme7
 
 # One of these should work ¯\_(ツ)_/¯
-kissanime.ru##script:inject(abort-current-inline-script.js, InitCloseButton)
-kissanime.ru##script:inject(abort-current-inline-script.js, isClickHide)
-kissanime.ru##script:inject(abort-current-inline-script.js, AddCloseButton)
+kissanime.ru##+js(abort-current-inline-script.js, InitCloseButton)
+kissanime.ru##+js(abort-current-inline-script.js, isClickHide)
+kissanime.ru##+js(abort-current-inline-script.js, AddCloseButton)
 
 # ==========
 # KissManga
@@ -25,9 +25,9 @@ kissanime.ru##script:inject(abort-current-inline-script.js, AddCloseButton)
 ||kissmanga.com^*.aspx$subdocument,first-party
 
 # Doing this here too ¯\_(ツ)_/¯
-kissmanga.com##script:inject(abort-current-inline-script.js, InitCloseButton)
-kissmanga.com##script:inject(abort-current-inline-script.js, isClickHide)
-kissmanga.com##script:inject(abort-current-inline-script.js, AddCloseButton)
+kissmanga.com##+js(abort-current-inline-script.js, InitCloseButton)
+kissmanga.com##+js(abort-current-inline-script.js, isClickHide)
+kissmanga.com##+js(abort-current-inline-script.js, AddCloseButton)
 
 kissmanga.com###divImage:style(display: block !important)
 kissmanga.com###btnShowComments:style(display: inline-block !important)
