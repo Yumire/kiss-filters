@@ -32,5 +32,4 @@ kissmanga.com##+js(abort-current-inline-script.js, AddCloseButton)
 kissmanga.com###divImage:style(display: block !important)
 kissmanga.com###btnShowComments:style(display: inline-block !important)
 
-@@||googleusercontent.com^$image,domain=kissmanga.com
 @@||file-comic-99.anyacg.co^$image,domain=kissmanga.com
