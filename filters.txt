@@ -18,9 +18,6 @@ kissanime.ru##+js(abort-current-inline-script.js, InitCloseButton)
 kissanime.ru##+js(abort-current-inline-script.js, isClickHide)
 kissanime.ru##+js(abort-current-inline-script.js, AddCloseButton)
 
-kissanime.ru###divContentVideo:style(display: block !important)
-kissanime.ru###divVideo:style(display: block !important)
-
 # ==========
 # KissManga
 # ==========
