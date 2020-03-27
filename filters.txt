@@ -21,6 +21,9 @@ kissanime.ru##+js(abort-current-inline-script.js, AddCloseButton)
 kissanime.ru###divContentVideo:style(display: block !important)
 kissanime.ru###divVideo:style(display: block !important)
 
+# CF Captcha Fix
+@@||hcaptcha.com$script,domain=kissanime.ru
+
 # ==========
 # KissManga
 # ==========
