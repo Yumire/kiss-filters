@@ -14,7 +14,9 @@ A few filters for the various Kiss sites.
 
 # Install (uBlock Origin)
 
-Copy the following url and follow the guide below
+Add the filsterlist from here: [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Yumire/kiss-filters/master/filters.txt&title=kiss-filters)
+
+Alternatively: Copy the following url and follow the guide below
 
 `https://raw.githubusercontent.com/Yumire/kiss-filters/master/filters.txt`
 
