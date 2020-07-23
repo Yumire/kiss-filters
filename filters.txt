@@ -24,6 +24,9 @@ kissanime.ru###divVideo:style(display: block !important)
 # CF Captcha Fix
 @@||hcaptcha.com$script,domain=kissanime.ru
 
+# Fix Nova player download
+@@||cdnjs.cloudflare.com/ajax/libs/jquery/*$script,domain=novelplanet.me
+
 # ==========
 # KissManga
 # ==========
