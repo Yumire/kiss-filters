@@ -27,6 +27,14 @@ kissanime.ru###divVideo:style(display: block !important)
 # Fix Nova player download
 @@||cdnjs.cloudflare.com/ajax/libs/jquery/*$script,domain=novelplanet.me
 
+# Fix some servers not working due to an EasyList filter
+@@||fonts.googleapis.com^$stylesheet,domain=kissanime.ru
+@@||vjs.zencdn.net^$stylesheet,domain=kissanime.ru
+@@||2.bp.blogspot.com^$xhr,domain=kissanime.ru
+@@||novelplanet.com$xhr,domain=kissanime.ru
+@@||replay.watch^$xhr,domain=kissanime.ru
+@@||coacoaca-opensocial.googleusercontent.com^$xhr,domain=kissanime.ru
+
 # ==========
 # KissManga
 # ==========
